@@ -1,0 +1,181 @@
+.full_screen
+{
+    width: 100vw;
+    height: 100vh;
+}
+.tabbar
+{
+    color: #ef7d00;
+    z-index: 5001;
+}
+.navbar, .subnavbar, .toolbar 
+{
+    background: #d27a16;
+}
+.logo_img
+{
+    width: calc(80vw - -40px);
+    margin: 20px;
+}
+.bg1
+{
+    width: 100%;
+    height: auto;
+}
+.button
+{
+background-color: #ef7d00;
+height: 60px;
+width: 47%;
+border-radius: 5px;
+border: 1px none;
+margin: 3px;
+color: #fffcfb;
+font-size: 15px;
+}
+.bt_right
+{
+    float: right;
+}
+.bt_left
+{
+    float: left;
+}
+.button_div
+{
+       width: 100%;
+    height: 150px;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+   
+}
+.title
+{
+    font-size: 30px;
+margin-bottom: 0px;
+margin-top: 0px;
+color: rgb(213, 123, 27);}
+
+.title_div
+{
+    padding-right: 20px;
+padding-left: 20px;
+}
+.bottom_img
+{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.aaa img{
+    height: 21px;
+    margin-bottom: -7px;
+}
+.aaa p{ margin: -7px;}
+.content-block p
+{
+    color: #1f1f21;
+    font-size: 17px;
+}
+
+/* page2*/
+.view2
+{
+    margin-top: -40px;
+    padding: 15px;
+}
+.logo_2
+{
+    margin-bottom: 30px;
+    width: 100%;
+}
+.title2
+{
+    font-size: 17px;
+}
+.div2
+{
+    padding: 15px;
+    margin-top: -35px;
+
+}
+.item-media img
+{
+    width: 18px;
+}
+.list-block .item-media + .item-inner
+{
+    margin-left: 5px;
+}
+.navbar-fixed .page-content
+{
+    padding-top: 5px;
+}
+.end_p{ margin-bottom: 60px;}
+
+.tabbar-demo-icon1
+{
+    background-image: url("../img/icon1.png");
+    width: 30px;
+    opacity: 0.5;
+}
+.tabbar-demo-icon2
+{
+    background-image: url("../img/news.png");
+    width: 30px;
+    opacity: 0.5;
+}
+.tabbar-demo-icon3
+{
+    background-image: url("../img/icon3.png");
+    width: 30px;
+    opacity: 0.5;
+
+}
+.tabbar-demo-icon4
+{
+    background-image: url("../img/icon4.png");
+    width: 30px;
+    opacity: 0.5;
+}
+.tabbar a
+{
+    color: #E9B983;
+}
+.tabbar a.active
+{
+    color: #ffffff;
+}
+.tabbar_op
+{
+    opacity: 1;
+}
+#view-5 { display: block; }
+#view-6 {  display: none; }
+.stand h1
+{ color:rgb(213, 123, 27);
+    padding-left: 15px;
+}
+.scroll
+{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
+#gobb{
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    bottom: 50px;
+    z-index: 9999;
+    background: #bfbfbf;
+    text-align: left;
+    font-size: 16px;
+    display: none;
+}
+
+

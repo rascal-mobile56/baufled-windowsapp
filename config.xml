@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.baufeld.altoe" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Baufeld Altoel</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author>Adobe Systems Canada Inc</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
+    <plugin name="cordova-plugin-sms" spec="~1.0.5" />
+    <plugin name="cordova-plugin-console" spec="~1.1.0" />
+    <plugin name="cordova-plugin-email-composer" spec="~0.8.15" />
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+    <plugin name="cordova-plugin-transport-security" spec="~0.1.2" />
+    <plugin name="cordova-plugin-wkwebview-engine" spec="^1.1.4" />
+    <engine name="windows" spec="^5.0.0" />
+    <!-- Windows 10 (default): -->
+    <preference name="windows-appx-target" value="uap" />
+    <!-- Windows 8.1: -->
+    <preference name="windows-appx-target" value="8.1-win" />
+    <!-- Windows Phone 8.1: -->
+    <preference name="windows-appx-target" value="8.1-phone" />
+    <preference name="windows-arch" value="anycpu" />
+    <preference name="windows-identity-name" value="markenwind.Werbeagentur" />
+</widget>
